@@ -6,16 +6,21 @@
   },
   "extends": ["plugin:react/recommended", "standard", "prettier"],
   "parserOptions": {
-    "ecmaFeatures": {
+    "ecmaFeatures": 
+    {
       "jsx": true
     },
     "ecmaVersion": 12,
     "sourceType": "module"
   },
+    
   "plugins": ["react", "react-hooks"],
-  "rules": {
+  "rules":  {
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "warn"
+    
+    
   }
+  
 }
